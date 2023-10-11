@@ -3,13 +3,10 @@ Trading Card Games text and image recognition project
 
 ## Project's steps
 
-- Testing and select the best OCR library (pysseract, keras_ocr or easyocr)
-- Development of the recognition code with scan Pokémon card take here : https://www.pokecardex.com/
-- Development of a function that stocks useful informations : pokémon name, number and logo serie
-- Development of a scan function that scan the card from camera 
+- [x] Testing and select the best OCR library (pysseract, keras_ocr or easyocr) 
+  - Keras and easyocr are the best
+- [] Development of database containing useful infos : Pokemon Name, Number, Serie Name, Img URL | Take on https://www.pokecardex.com/
+- [] Development of the recognition code with scan Pokémon card
+- [] Link database with scan img 
 
-# In progress : testing librairies
-- Pytesseract and OpenCV
-
-Actually the code is not push in github directory.
 For more code detail, please contact me at hytiapro@gmail.com
