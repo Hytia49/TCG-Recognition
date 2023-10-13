@@ -5,7 +5,8 @@ Trading Card Games text and image recognition project
 
 - [x] Testing and select the best OCR library (pysseract, keras_ocr or easyocr) 
   - Keras and easyocr are the best
-- [x] Development of local excel database containing useful infos : Pokemon Name, Number, Serie Name, Img URL | Take on https://www.pokecardex.com/ + add sql server azure database access (for me, you can't have access)
+- [x] Development of local excel database containing useful infos : Pokemon Name, Number, Serie Name, Img URL | Take on https://www.pokecardex.com/
+- [x] Add sql server azure database access (for me, you can't have access)
 - [ ] Development of the recognition code with scan Pokémon card
 - [ ] Link database with scan img
 
