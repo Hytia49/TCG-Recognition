@@ -12,12 +12,12 @@ if len(os.listdir(PROCESSED_PATH)) != 0 :
 else:
     print('The database does not exist')
 
-for i in range(len(database)):
+for i in range(5):
         
-    if not os.path.exists(f"{IMGS_PATH}\\{database['Serie'][i]}") :
+    if not os.path.exists(f"{IMGS_PATH}\\{database['nameserie'][i]}") :
 
-        os.makedirs(f"{IMGS_PATH}\\{database['Serie'][i]}")
+        os.makedirs(f"{IMGS_PATH}\\{database['nameserie'][i]}")
 
-    urllib.request.urlretrieve(database['URL_img'][i], f"{IMGS_PATH}\\{database['Serie'][i]}\\{database['Number'][i].replace('/','_')}.{database['URL_img'][i][-3:]}")
+    urllib.request.urlretrieve(database['urlimgcard'][i], f"{IMGS_PATH}\\{database['nameserie'][i].replace(':', '')}\\{database['numcard'][i].replace('/','_')}.{database['urlimgcard'][i][-3:]}")
 
 
